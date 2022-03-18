@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_lists_near_by_lists",
+  "info": {
+    "displayName": "nearByList",
+    "icon": "walking",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "place": {
+      "displayName": "nearByPlace",
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.near-by-place"
+    }
+  }
+}

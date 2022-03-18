@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_nested_near_by_places",
+  "info": {
+    "displayName": "nearByPlace",
+    "icon": "map-pin"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "distance": {
+      "type": "string"
+    }
+  }
+}

@@ -56,14 +56,6 @@
       },
       "type": "string"
     },
-    "nearBy": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "json"
-    },
     "allBillsIncluded": {
       "pluginOptions": {
         "i18n": {
@@ -89,6 +81,32 @@
       "type": "string",
       "unique": true,
       "required": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "nearBy": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "lists.near-by-list"
     }
   }
 }
